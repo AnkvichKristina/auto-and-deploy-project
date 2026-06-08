@@ -1,0 +1,17 @@
+# Виртуальное окружение
+venv/
+
+# Python cache
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Конфиг с паролями
+config.py
+
+# Логи
+logs/
+*.log
+
+*.bat
