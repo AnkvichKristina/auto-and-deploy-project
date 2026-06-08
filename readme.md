@@ -9,23 +9,16 @@
 Логирование всех этапов работы
 
 ## Структура проекта
-project/
-│
-├── data.py      	  # Генерация CSV-файлов
-├── loading.py            # Загрузка данных в PostgreSQL
-├── config_example.py     # Пример конфигурационного файла
-├── requirements.txt      # Список нужных библиотек
-├── README.md
-├── .gitignore
-│
-├── data/                 # Пример выгрузок
-│
-├── sql/
-│   └── create_tables.sql # DDL для создания таблицы
-│
-├── img/                  # Скриншоты автоматизации и БД
-│
-└── logs/                 # Логи работы скриптов
+project/  
+data.py - Генерация CSV-файлов  
+loading.py - Загрузка данных в PostgreSQL  
+config_example.py - Пример конфигурационного файла  
+requirements.txt - Список нужных библиотек    
+data/ - Пример выгрузок  
+sql/create_tables.sql - DDL для создания таблицы  
+img/ - Скриншоты автоматизации и БД  
+README.md  
+.gitignore
 
 ## Установка проекта
 ### 1. Клонировать репозиторий
